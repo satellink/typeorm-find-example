@@ -1,0 +1,30 @@
+{
+   "name": "test",
+   "version": "1.0.0",
+   "description": "",
+   "scripts": {
+      "test": "mocha -r ts-node/register */**/*.spec.ts"
+   },
+   "keywords": [],
+   "author": "",
+   "license": "ISC",
+   "engines": {
+      "node": "8.x"
+   },
+   "devDependencies": {
+      "@types/chai": "^4.0.1",
+      "@types/mocha": "^2.2.41",
+      "@types/node": "^8.0.29",
+      "chai": "^4.0.2",
+      "mocha": "^3.4.2",
+      "ts-node": "3.3.0",
+      "typescript": "2.5.2"
+   },
+   "dependencies": {
+      "morgan": "^1.8.2",
+      "pg": "^7.3.0",
+      "pg-hstore": "^2.3.2",
+      "reflect-metadata": "^0.1.10",
+      "typeorm": "0.1.7"
+   }
+}
